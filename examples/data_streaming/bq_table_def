@@ -1,0 +1,39 @@
+[
+    {
+        "name": "message_number",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "timestamp",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "parsed_number",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "parsed_timestamp",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "products",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+            {
+                "name": "id",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "name",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            }
+        ]
+    }
+]
