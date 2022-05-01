@@ -1,5 +1,5 @@
-# Dataflow: Pub/Sub to BQ
-This is a demostration of the application suggested
+# Dataflow Examples
+This is a demostration of the Dataflow, examples are under ```examples``` folder
 
 ## Examples
 - Data streaming: Send data to Pub/Sub, then process them and import records to BigQuery
