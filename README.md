@@ -4,6 +4,7 @@ This is a demostration of the Dataflow, examples are under ```examples``` folder
 ## Examples
 - Data streaming: Send data to Pub/Sub, then process them and import records to BigQuery
 - Windowed aggregation: Aggregate purchase value by users from Pub/Sub event stream
+- This doc from Google is a useful reference too https://cloud.google.com/pubsub/docs/stream-messages-dataflow
 
 ## How to execute this
 1. (Optional, for data_streaming only) Create a BQ table with definition stated in ```bq_table_def.json```
